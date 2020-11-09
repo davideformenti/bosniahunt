@@ -101,7 +101,7 @@ a:hover{color: black; text-decoration: none;}
 .camoscio{background-image: url(assets/img/camoscio.jpg);background-repeat: no-repeat; background-position-x:center ;background-size: cover;background-position-y: -18vh;}
 .serbia{background-image: url(assets/img/serbia.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
 
-
+.testocontattiinner{display: contents;}
 
 
 
