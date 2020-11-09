@@ -27,7 +27,7 @@ body{overflow-x: hidden;}
 
 .jumbohome{
     overflow: hidden;
-    background-image: url("/assets/img/bosnia2.jpg");
+    background-image: url("assets/img/bosnia2.jpg");
     background-position: center;
     background-repeat: no-repeat;
     height: 91vh;
@@ -95,11 +95,11 @@ body{overflow-x: hidden;}
 a{color: sandybrown; text-decoration: none;}
 a:hover{color: black; text-decoration: none;}
 #brand{color: black;}
-.orso{background-image: url(/assets/img/orso.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
-.lupo{background-image: url(/assets/img/lupo1.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
-.cinghiale{background-image: url(/assets/img/cinghiale.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;}
-.camoscio{background-image: url(/assets/img/camoscio.jpg);background-repeat: no-repeat; background-position-x:center ;background-size: cover;background-position-y: -18vh;}
-.serbia{background-image: url(/assets/img/serbia.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
+.orso{background-image: url(assets/img/orso.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
+.lupo{background-image: url(assets/img/lupo1.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
+.cinghiale{background-image: url(assets/img/cinghiale.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;}
+.camoscio{background-image: url(assets/img/camoscio.jpg);background-repeat: no-repeat; background-position-x:center ;background-size: cover;background-position-y: -18vh;}
+.serbia{background-image: url(assets/img/serbia.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
 
 
 
@@ -123,7 +123,7 @@ a:hover{color: black; text-decoration: none;}
 @media only screen and (max-width: 600px) {
 .panel-body{padding: 1rem;height: 100vh; text-align: left;}
 .panel-title{font-size: 1rem;}
-.camoscio{background-image: url(/assets/img/camoscio.jpg);background-repeat: no-repeat; background-position-x:center ;background-size: cover;background-position-y: -9vh;}
+.camoscio{background-image: url(assets/img/camoscio.jpg);background-repeat: no-repeat; background-position-x:center ;background-size: cover;background-position-y: -9vh;}
 
 .panel-heading{
     border-top: 1px solid black;
