@@ -1,8 +1,12 @@
-@font-face{
-    font-family:'cantique';
-    src:url('assets/fonts/cantique/fonts/web/Cantique-Normal.woff2') format('woof2');
-}
 
+@font-face {
+    font-family: 'cantiquenormal';
+    src: url('./assets/fonts/cantique/fonts/web/Cantique-Normal.woff2') format('woff2'),
+         url('./assets/fonts/cantique/fonts/web/Cantique-Normal.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 
 
@@ -19,9 +23,9 @@ body{overflow-x: hidden;}
 
 
 
-.titolonehome{font-family: cantique; font-size: 4rem;color: white;}
+.titolonehome{font-family: cantiquenormal; font-size: 4rem;color: white;}
 
-.navbar{background-color: burlywood;font-family: cantique; }
+.navbar{background-color: burlywood;font-family: cantiquenormal; }
 
 
 
@@ -60,7 +64,7 @@ body{overflow-x: hidden;}
 #navbarSupportedContent{justify-content: flex-end;}
 
 
-.titolocontatti{font-family:cantique; margin-bottom: 3rem;}
+.titolocontatti{font-family:cantiquenormal; margin-bottom: 3rem;}
 .testocontatti{
     font-family: 'Spectral', serif;
     flex: auto;
@@ -71,7 +75,7 @@ body{overflow-x: hidden;}
     text-align: center;}
 
 .categoria{border: 1px solid black; width:100vw; height:18vh;}
-.titoloesperienza{font-family: cantique;}
+.titoloesperienza{font-family: cantiquenormal;}
 
 .panel-heading{
     border-top: 1px solid black;
@@ -88,7 +92,7 @@ body{overflow-x: hidden;}
     align-items: center;
     text-align: justify;}
 
-.panel-title{font-family: cantique;}
+.panel-title{font-family: cantiquenormal;}
 
 .esperienzeglobale{padding:0rem;}
 
