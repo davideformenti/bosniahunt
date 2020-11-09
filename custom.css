@@ -1,0 +1,143 @@
+@font-face{
+    font-family:'cantique';
+    src:url('/assets/fonts/cantique/fonts/web/Cantique-Normal.woff2') format('woof2');
+}
+
+
+
+
+
+/* /////////_________///////// */
+
+/* ///////// DESKTOP ///////// */
+
+/* /////////_________///////// */
+
+body{overflow-x: hidden;}
+
+
+
+
+
+.titolonehome{font-family: cantique; font-size: 4rem;color: white;}
+
+.navbar{background-color: burlywood;font-family: cantique; }
+
+
+
+.jumbohome{
+    overflow: hidden;
+    background-image: url("/assets/img/bosnia2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 91vh;
+    padding:0rem;
+    margin: 0rem;
+    display: flex;
+    align-items: center;
+}
+
+.testocoverhome{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+
+.titoloesperienza{display: flex; justify-content: center;}
+
+.esperienza{
+     background-color: burlywood;
+     margin-top: 2rem; 
+     margin-bottom: 2rem;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     height:35vh;
+     font-size: .7rem;
+ 
+    }
+#navbarSupportedContent{justify-content: flex-end;}
+
+
+.titolocontatti{font-family:cantique; margin-bottom: 3rem;}
+.testocontatti{
+    font-family: 'Spectral', serif;
+    flex: auto;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+    text-align: center;}
+
+.categoria{border: 1px solid black; width:100vw; height:18vh;}
+.titoloesperienza{font-family: cantique;}
+
+.panel-heading{
+    border-top: 1px solid black;
+    display: flex;
+    height: 19vh;
+    justify-content: center;
+    align-items: center;
+}
+.panel-body{
+    font-family: 'Spectral', serif;
+    height: 50vh;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    text-align: justify;}
+
+.panel-title{font-family: cantique;}
+
+.esperienzeglobale{padding:0rem;}
+
+a{color: sandybrown; text-decoration: none;}
+a:hover{color: black; text-decoration: none;}
+#brand{color: black;}
+.orso{background-image: url(/assets/img/orso.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
+.lupo{background-image: url(/assets/img/lupo1.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
+.cinghiale{background-image: url(/assets/img/cinghiale.jpg); background-repeat: no-repeat; background-position: center; background-size: cover;}
+.camoscio{background-image: url(/assets/img/camoscio.jpg);background-repeat: no-repeat; background-position-x:center ;background-size: cover;background-position-y: -18vh;}
+.serbia{background-image: url(/assets/img/serbia.jpg);background-repeat: no-repeat; background-position: center; background-size: cover;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /////////_________///////// */
+
+/* ///////// MOBILE ///////// */
+
+/* /////////_________///////// */
+
+@media only screen and (max-width: 600px) {
+.panel-body{padding: 1rem;height: 100vh; text-align: left;}
+.panel-title{font-size: 1rem;}
+.camoscio{background-image: url(/assets/img/camoscio.jpg);background-repeat: no-repeat; background-position-x:center ;background-size: cover;background-position-y: -9vh;}
+
+.panel-heading{
+    border-top: 1px solid black;
+    display: flex;
+    height: 18.5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.titolonehome{font-size: 1.5rem;}
+.titolocontatti{font-size: 1.5rem;}
+.testocontattiinner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+
+}
