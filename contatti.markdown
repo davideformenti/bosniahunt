@@ -6,4 +6,4 @@ permalink: /contatti/
 
 +39 387 65 193 692
 
-E-MAIL: bosniahunt@gmail.com  
+E-MAIL: info@bosniahunt.com  
